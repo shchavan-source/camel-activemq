@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1636951556203
+Build-Jdk: 1.8.0_282
+Built-By: shchavan
+Bundle-Description: Sample Fuse Code for ActiveMQ and ThreadConfig
+Bundle-ManifestVersion: 2
+Bundle-Name: Fuse :: Karaf :: Camel :: ActiveMQ
+Bundle-SymbolicName: org.redhat.fusesource.example.camel-activemq
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.redhat.fusesource;uses:="org.apache.camel.builder,or
+ g.apache.camel.model";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.camel.builder;version="[2.23,3)",org.apache.c
+ amel.component.amqp,org.apache.camel.component.jms;version="[2.23,3)",o
+ rg.apache.camel.model;version="[2.23,3)",org.apache.qpid.jms,org.osgi.s
+ ervice.blueprint;version="[1.0.0,2.0.0)",org.springframework.jms.connec
+ tion
+Tool: Bnd-1.50.0
